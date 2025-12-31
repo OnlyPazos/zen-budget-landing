@@ -1,46 +1,43 @@
-# Astro Starter Kit: Basics
+# Zen Budget
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+**Zen Budget** is the perfect app for managing your personal finances in an easy, private, and distraction-free way. Keep track of your income, expenses, and savings with full privacy and no internet connection required.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## ✨ Features
 
-Inside of your Astro project, you'll see the following folders and files:
+- **📊 Detailed tracking of income and expenses**  
+  Keep full control of your personal finances by tracking all your income and expenses.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+- **🎨 Custom categories**  
+  Create custom income and expense categories with a name, icon, and color, making your experience more organized and visually appealing.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- **📈 Charts and statistics**  
+  Visualize the evolution of your finances through charts and statistics that help you understand how your finances change over time.
 
-## 🧞 Commands
+- **💾 Local data storage**  
+  All your data is securely stored locally on your device with no need for cloud synchronization or external servers.
 
-All commands are run from the root of the project, from a terminal:
+- **📴 Fully offline functionality**  
+  Zen Budget works completely offline, allowing you to manage your finances anytime, anywhere, without an internet connection.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+- **🚫 Ad-free experience**  
+  Enjoy a distraction-free experience with no ads. Zen Budget is designed to keep you focused on managing your finances.
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📱 Download and Use
+
+Zen Budget is available for both Android and iOS devices.  
+Download it now and take control of your finances today.
+
+---
+
+## 📩 Contact
+
+If you have any questions or feedback, feel free to reach out to us at:  
+**support@zenbudgetapp.com**
+
+---
+
+**Zen Budget**: Finance without the stress.
