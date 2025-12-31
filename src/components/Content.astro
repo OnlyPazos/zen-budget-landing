@@ -1,0 +1,84 @@
+<main>
+  <h1>Your personal finances app</h1>
+
+  <section>
+    <div class="image__wrapper">
+      <img src="/app_screen.png" />
+    </div>
+    <div>
+      <p class="section__title">✨ Features</p>
+
+      <p class="section__paragraph">
+        📊 Detailed tracking of income and expenses to keep full control of your
+        personal finances.
+      </p>
+
+      <p class="section__paragraph">
+        🎨 Custom categories, allowing you to set a name, icon, and color for
+        each category.
+      </p>
+
+      <p class="section__paragraph">
+        📈 Charts and statistics that show the evolution of your finances over
+        time.
+      </p>
+
+      <p class="section__paragraph">
+        💾 All data stored locally on your device, with no external
+        synchronization.
+      </p>
+
+      <p class="section__paragraph">
+        📴 Works completely offline, no Internet connection required.
+      </p>
+
+      <p class="section__paragraph">
+        🚫 Ad-free experience, designed to stay focused without distractions.
+      </p>
+    </div>
+  </section>
+</main>
+
+<style>
+  .image__wrapper {
+    background-color: #374151;
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .section__title {
+    font-size: 1.5rem;
+  }
+
+  .section__paragraph {
+    font-size: 1.1rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  section {
+    display: flex;
+    gap: 2rem;
+    max-width: 800px;
+  }
+
+  img {
+    max-width: 280px;
+  }
+
+  p {
+    text-wrap-style: pretty;
+  }
+
+  @media (width < 768px) {
+    section {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
