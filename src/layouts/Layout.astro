@@ -1,7 +1,7 @@
 ---
-import Footer from "../components/Footer.astro"
-import Header from "../components/Header.astro"
-import "../styles/global.css"
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import "../styles/global.css";
 ---
 
 <!doctype html>
@@ -9,9 +9,43 @@ import "../styles/global.css"
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/zen-budget-logo.png" />
+		<link rel="icon" type="image/svg+xml" href="/zen-budget-logo.webp" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Zen Budget App</title>
+		<!-- INFO -->
+		<title>Zen Budget - Simple & Private Finance Tracker</title>
+		<meta
+			name="description"
+			content="Zen Budget is a simple and private finance tracking app. Manage income and expenses, custom categories, charts over time, no ads and all data stored locally."
+		/>
+		<meta
+			name="keywords"
+			content="zen budget, finance tracker, budget app, expense tracker, personal finance, offline finance app"
+		/>
+		<meta name="author" content="Zen Budget" />
+		<!-- Open Graph -->
+		<meta
+			property="og:title"
+			content="Zen Budget – Simple & Private Finance Tracker"
+		/>
+		<meta
+			property="og:description"
+			content="Manage your finances easily with Zen Budget. No ads, no tracking, all data stored locally."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="/zen-budget-logo.webp" />
+		<meta property="og:url" content="https://zenbudgetpro.com" />
+
+		<!-- TWITTER / X -->
+		<meta name="twitter:card" content="summary" />
+		<meta
+			name="twitter:title"
+			content="Zen Budget – Simple & Private Finance Tracker"
+		/>
+		<meta
+			name="twitter:description"
+			content="A simple and private finance tracking app with local storage and no ads."
+		/>
+		<meta name="twitter:image" content="/zen-budget-logo.webp" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
