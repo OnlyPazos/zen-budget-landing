@@ -1,12 +1,17 @@
 ---
-const year = new Date().getFullYear()
+const year = new Date().getFullYear();
 ---
 
 <footer class="footer">
   <p>© {year} Zen Budget. All rights reserved.</p>
-  <p>
-    <a href="/privacy-policy">Privacy Policy</a>
-  </p>
+  <div class="legal__section">
+    <p>
+      <a href="/privacy-policy">Privacy Policy</a>
+    </p>
+    <p>
+      <a href="/terms-and-conditions">Terms & Conditions</a>
+    </p>
+  </div>
   <p>
     Contact:
     <a href="mailto:zenbudgetpro@gmail.com">zenbudgetpro@gmail.com</a>
@@ -15,15 +20,26 @@ const year = new Date().getFullYear()
 
 <style>
   .footer {
-    border-bottom: 4px solid var(--border);
+    border-top: 4px solid var(--border);
     align-items: center;
     display: flex;
     justify-content: space-between;
   }
 
+  .legal__section {
+    display: flex;
+    gap: 1rem;
+  }
+
   @media (width < 768px) {
     .footer {
       flex-direction: column;
+    }
+
+    .legal__section {
+      align-items: center;
+      flex-direction: column;
+      gap: 0;
     }
   }
 </style>
